@@ -63,12 +63,12 @@ localhostForwarding=true
 
 ```
 #### 4. Read More
-[WSL commands and launch configurations](https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings)
-[WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f)
-[Docker Desktop: WSL 2 Best practices](https://www.docker.com/blog/docker-desktop-wsl-2-best-practices/)
-[Docker Desktop for Windows user manual](https://docs.docker.com/docker-for-windows/#advanced)
-[WSL 2, Docker Desktop, VS Code Remote — WSL Extension](https://ponggun.medium.com/%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-wsl-2-docker-desktop-vs-code-remote-wsl-extension-e42e49d37d6d)
-[ติดตั้ง WSL 2, Docker Desktop บน Windows 10 ](https://ponggun.medium.com/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-wsl-2-docker-desktop-%E0%B8%9A%E0%B8%99-windows-10-home-64279672703)
+- [WSL commands and launch configurations](https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings)
+- [WSL2 Tips: Limit CPU/Memory When using Docker](https://itnext.io/wsl2-tips-limit-cpu-memory-when-using-docker-c022535faf6f)
+- [Docker Desktop: WSL 2 Best practices](https://www.docker.com/blog/docker-desktop-wsl-2-best-practices/)
+- [Docker Desktop for Windows user manual](https://docs.docker.com/docker-for-windows/#advanced)
+- [WSL 2, Docker Desktop, VS Code Remote — WSL Extension](https://ponggun.medium.com/%E0%B8%9D%E0%B8%B6%E0%B8%81%E0%B9%83%E0%B8%8A%E0%B9%89%E0%B8%87%E0%B8%B2%E0%B8%99-wsl-2-docker-desktop-vs-code-remote-wsl-extension-e42e49d37d6d)
+- [ติดตั้ง WSL 2, Docker Desktop บน Windows 10 ](https://ponggun.medium.com/%E0%B8%9A%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%B6%E0%B8%81-%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B8%B1%E0%B9%89%E0%B8%87-wsl-2-docker-desktop-%E0%B8%9A%E0%B8%99-windows-10-home-64279672703)
 
 # Alternative choice to Change the location
 ```
