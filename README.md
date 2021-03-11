@@ -36,9 +36,34 @@ wsl --unregister docker-desktop-data
 ```
 wsl --import docker-desktop-data "D:\Docker\wsl\data" "D:\Docker\wsl\data\docker-desktop-data.tar" --version 2
 ```
-#### 6. Start the Docker Desktop again and it should work :)
-
+#### 6. Start the Docker Desktop using in your Admin PowerShell
+```
+Get-Service LxssManager | Restart-Service
+```
 #### 7. You may delete the D:\Docker\wsl\data\docker-desktop-data.tar file (NOT the ext4.vhdx file) if everything looks good for you after verifying
+
+# Memory allocation to docker containers after moving to WSL 2 in Windows
+#### 1. Open Windows Terminal/CMD/PowerShell and run the commands below:
+```
+# turn off all wsl instances such as docker-desktop
+wsl --shutdown
+
+```
+#### 2. Create/ Open .wslconfig file with notepad:
+```
+notepad "$env:USERPROFILE/.wslconfig"
+```
+#### 3. Edit .wslconfig file with notepad and write down these settings:
+```
+[wsl2]
+memory=6GB      # Any size you feel like
+processors=4    # Virtual processors
+swap=0
+localhostForwarding=true
+
+```
+#### 4. [Read more](https://docs.microsoft.com/en-us/windows/wsl/wsl-config#wsl-2-settings)
+
 
 # Alternative choice to Change the location
 ```
