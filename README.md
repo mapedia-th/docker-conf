@@ -122,7 +122,7 @@ Now You will have free disk space
 - [Cleaning Up Docker Disk Space In WSL2](https://marcroussy.com/2020/12/01/cleaning-up-docker-disk-space-in-wsl2/)
 
 # Docker Cheat Sheet
-#### จัดการ Docker Images
+#### Manage Docker Images
 ```
 docker images #View docker images
 docker image ls #View docker images
@@ -130,7 +130,7 @@ docker build -t {name}:{tag} . #Build image
 docker image rm {docker image name/ image id} #remove image
 docker run -p {server port}:{docker port} -d {image name}:{image tag} #Run image
 ```
-#### จัดการ Docker Container
+#### Manage Docker Container
 ```
 docker ps #List running containers
 docker ps -a #List all containers
@@ -139,7 +139,7 @@ docker stop {docker container id} #stop container
 docker rm {docker container id} #remove container
 docker container rm -f $(docker ps -aq) #remove all container
 ```
-#### จัดการ Docker Compose
+#### Manage Docker Compose
 ```
 docker-compose start #start docker compose
 docker-compose stop #stop docker compose
