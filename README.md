@@ -41,3 +41,36 @@ wsl --import docker-desktop-data "D:\Docker\wsl\data" "D:\Docker\wsl\data\docker
 #### 6. Start the Docker Desktop again and it should work :)
 
 #### 7. You may delete the D:\Docker\wsl\data\docker-desktop-data.tar file (NOT the ext4.vhdx file) if everything looks good for you after verifying
+
+## Docker Cheat Sheet
+#### จัดการ Docker Images
+```
+docker images #View docker images
+docker image ls #View docker images
+docker build -t {name}:{tag} . #Build image
+docker image rm {docker image name/ image id} #remove image
+docker run -p {server port}:{docker port} -d {image name}:{image tag} #Run image
+```
+#### จัดการ Docker Container
+```
+docker ps #List running containers
+docker ps -a #List all containers
+docker start {docker container id} #start container
+docker stop {docker container id} #stop container
+docker rm {docker container id} #remove container
+docker container rm -f $(docker ps -aq) #remove all container
+```
+#### จัดการ Docker Compose
+```
+docker-compose start #start docker compose
+docker-compose stop #stop docker compose
+docker-compose pause #pause running containers
+docker-compose unpause #unpause running containers
+docker-compose ps #List containers
+docker-compose up
+#Builds,creates,starts,attaches to containers
+docker-compose down
+#Stops containers and removes containers, networks, volumes, and images created by up
+```
+#### Links
+[Docker Cheat Sheet](https://www.docker.com/sites/default/files/d8/2019-09/docker-cheat-sheet.pdf)
