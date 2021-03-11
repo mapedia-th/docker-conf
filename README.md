@@ -1,8 +1,6 @@
 # Docker Cheat Sheet
 Docker Cheat Sheet WSL 2 and Hyper-V
-
 ## Change the location of docker images when using Docker Desktop on WSL 2
-
 
 #### 1. The WSL 2 docker-desktop-data vm disk image would normally reside in:
 ```
@@ -42,7 +40,28 @@ wsl --import docker-desktop-data "D:\Docker\wsl\data" "D:\Docker\wsl\data\docker
 
 #### 7. You may delete the D:\Docker\wsl\data\docker-desktop-data.tar file (NOT the ext4.vhdx file) if everything looks good for you after verifying
 
-## Docker Cheat Sheet
+# Alternative choice to Change the location
+```
+1. Stop Docker Desktop
+
+2. Relocate Docker folder from C:\Users\chingchaih\AppData\Local\Docker to new path
+
+3. Make sure C:\Users\chingchaih\AppData\Local\Docker is no longer there
+
+4. Open a cmd in administrator mode
+
+5. Run the following command that will create a symbolic link in the cmd window with the appropriate from and to path
+
+    mklink /j "C:\Users\chingchaih\AppData\Local\Docker" "D:\Docker"
+
+6. Restart Docker Desktop
+
+7. Remove junction link
+    rmdir "C:\Users\chingchaih\AppData\Local\Docker"
+
+```
+
+# Docker Cheat Sheet
 #### จัดการ Docker Images
 ```
 docker images #View docker images
