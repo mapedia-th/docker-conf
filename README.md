@@ -91,6 +91,36 @@ localhostForwarding=true
 
 ```
 
+# Reclaim the space used by WSL2 's ext4.vhdx
+#### 1. Remove unused images and other resources
+```
+docker system prune -a
+```
+
+#### 2. Remove more resources
+```
+docker volume rm $(docker volume ls -q -f dangling=true)
+```
+
+#### 3. Stop docker desktop, optimize image
+```
+#Make sure HyperV turned on / or type Hyper-V in win search
+
+%windir%\System32\mmc.exe "%windir%\System32\virtmgmt.msc"
+```
+
+#### 4. Optimize disk in GUI > Go to VM, and check disk
+```
+Optimize-VHD -Path "C:\ProgramData\DockerDesktop\vm-data\DockerDesktop.vhdx" -Mode Full
+```
+
+#### 5. Start docker desktop
+```
+Now You will have free disk space
+```
+#### 6. Read more
+- [Cleaning Up Docker Disk Space In WSL2](https://marcroussy.com/2020/12/01/cleaning-up-docker-disk-space-in-wsl2/)
+
 # Docker Cheat Sheet
 #### จัดการ Docker Images
 ```
