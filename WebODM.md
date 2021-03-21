@@ -72,29 +72,29 @@ A user-friendly, commercial grade software for drone image processing. Generate 
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/7.PNG"/>
 
   - ดับเบิลคลิกที่ไฟล์ wsl_update_x64.msi เพื่ออัพเดท WSL2 Linux kernel update package for x64 machines หรือ [ดาวน์โหลดได้ที่](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/8.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/8.PNG"/>
 
   - การติดตั้งเพื่ออัพเดท WSL2 Linux kernel update package for x64 machines สำเร็จ
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/9.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/9.PNG"/>
 
   - จากนั้นก็จะสามารถเปิดใช้งาน docker ได้
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
 
 * ขั้นตอนการตั้งค่า Switch ระหว่าง WLS 2 กับ Hyper-V ใน Docker
   - วิธีสลับไปใช้ Hyper-V สามารถทำได้โดย ติกเครืองหมายถูกออกในช่อง Use the WSL 2 based engine จากนั้นกดที่ Apply and Restart
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/11.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/11.PNG"/>
 
   - จากนั้น docker จะเริ่มที่การ Switching และทำการปิด WSL 2 ให้
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/13.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/13.PNG"/>
 
   - จะเห็นว่าเมื่อ Switch มาใช้งานในฝั่งของ Hyper-v แล้วจะสามารถปรับ Resource ได้
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/14.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/14.PNG"/>
 
   - ซึ่งปกติแล้วไฟล์ image จะอยู่ที่ C:\ProgramData\DockerDesktop\vm-data
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/12.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/12.PNG"/>
 
   - แต่ถ้าเราอยากจะกลับไปใช้แบบ WSL 2 ก็ให้ติกถูกที่ช่อง Use the WSL 2 based engine กลับคืน จากนั้นกดที่ Apply and Restart
-  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
+  <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
 
 * ขั้นตอนการติดตั้งโปรแกรม WebODM
 * From the Docker Quickstart Terminal or Git Bash (Windows), or from the command line (Mac / Linux), type:
