@@ -37,19 +37,21 @@ A user-friendly, commercial grade software for drone image processing. Generate 
 
 ## Getting Started
 
-* ขั้นตอนการติดตั้งโปรแกรม
+* ขั้นตอนการติดตั้งโปรแกรม Git
   - ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
   - ดับเบิลคลิกที่ไฟล์ Git-2.31.0-64-bit.exe เพื่อเริ่มติดตั้ง
   - ติกถูกเลือกทั้งหมด แล้วคลิกที่ OK
   <img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/1.PNG"/>
 
-  - ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
 
+* ขั้นตอนการติดตั้งโปรแกรม Docker
+  - สามารถดาวน์โหลดโปรแกรม docker ได้ที่ [Docker](https://www.docker.com/)
+  - ดับเบิลคลิกที่ไฟล์ Docker Desktop Installer.exe เพื่อเริ่มติดตั้งโปรแกรม
+  - ติกถูกเลือกทั้งหมด แล้วคลิกที่ OK
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/1.PNG"/>
+  - เริ่มติดตั้งโปรแกรม docker กรุณารอสักครู่
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/2.PNG"/>
 
-  - [Docker](https://www.docker.com/)
-  - [Docker-compose](https://docs.docker.com/compose/install/)
-  - Python
-  - Pip
 
 * Windows users should install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) and 1) make sure Linux containers are enabled (Switch to Linux Containers...), 2) give Docker enough CPUs (default 2) and RAM (>4Gb, 16Gb better but leave some for Windows) by going to Settings -- Advanced, and 3) select where on your hard drive you want virtual hard drives to reside (Settings -- Advanced -- Images & Volumes).
 
