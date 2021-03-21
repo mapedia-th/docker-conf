@@ -39,9 +39,9 @@ A user-friendly, commercial grade software for drone image processing. Generate 
 
 * ขั้นตอนการติดตั้งโปรแกรม
   - ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
-
-  - ดับเบิลคลิกที่ไฟล์ Git-2.31.0-64-bit.exe
-  <img width="800" src="https://github.com/chingchai/workshop/blob/nump/postgis/sql_img1.png"/>
+  - ดับเบิลคลิกที่ไฟล์ Git-2.31.0-64-bit.exe เพื่อเริ่มติดตั้ง
+  - ติกถูกเลือกทั้งหมด แล้วคลิกที่ OK
+  <img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/1.PNG"/>
 
   - ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
 
