@@ -80,18 +80,23 @@ A user-friendly, commercial grade software for drone image processing. Generate 
   - จากนั้นก็จะสามารถเปิดใช้งาน docker ได้
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
 
+* ขั้นตอนการตั้งค่า Switch ระหว่าง WLS 2 กับ Hyper-V ใน Docker
+  - วิธีสลับไปใช้ Hyper-V สามารถทำได้โดย ติกเครืองหมายถูกออกในช่อง Use the WSL 2 based engine จากนั้นกดที่ Apply and Restart
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/11.PNG"/>
 
+  - จากนั้น docker จะเริ่มที่การ Switching และทำการปิด WSL 2 ให้
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/13.PNG"/>
 
+  - จะเห็นว่าเมื่อ Switch มาใช้งานในฝั่งของ Hyper-v แล้วจะสามารถปรับ Resource ได้
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/14.PNG"/>
 
+  - ซึ่งปกติแล้วไฟล์ image จะอยู่ที่ C:\ProgramData\DockerDesktop\vm-data
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/12.PNG"/>
 
+  - แต่ถ้าเราอยากจะกลับไปใช้แบบ WSL 2 ก็ให้ติกถูกที่ช่อง Use the WSL 2 based engine กลับคืน จากนั้นกดที่ Apply and Restart
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
 
-
-
-
-
-
-* Windows users should install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) and 1) make sure Linux containers are enabled (Switch to Linux Containers...), 2) give Docker enough CPUs (default 2) and RAM (>4Gb, 16Gb better but leave some for Windows) by going to Settings -- Advanced, and 3) select where on your hard drive you want virtual hard drives to reside (Settings -- Advanced -- Images & Volumes).
-
+* ขั้นตอนการติดตั้งโปรแกรม WebODM
 * From the Docker Quickstart Terminal or Git Bash (Windows), or from the command line (Mac / Linux), type:
 ```bash
 git clone https://github.com/OpenDroneMap/WebODM --config core.autocrlf=input --depth 1
