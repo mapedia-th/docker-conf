@@ -49,6 +49,7 @@ A user-friendly, commercial grade software for drone image processing. Generate 
   - ดับเบิลคลิกที่ไฟล์ Docker Desktop Installer.exe เพื่อเริ่มติดตั้งโปรแกรม
   - ติกถูกเลือกทั้งหมด แล้วคลิกที่ OK
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/1.PNG"/>
+
   - เริ่มติดตั้งโปรแกรม docker กรุณารอสักครู่
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/2.PNG"/>
 
