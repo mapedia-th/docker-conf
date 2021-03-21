@@ -53,6 +53,38 @@ A user-friendly, commercial grade software for drone image processing. Generate 
   - เริ่มติดตั้งโปรแกรม docker กรุณารอสักครู่
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/2.PNG"/>
 
+  - จากนั้นคลิกที่ปุ่ม Close and restart
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/4.PNG"/>
+
+  - หลังจากที่ restart เครื่องแล้ว docker จะมีการแจ้งเตือนว่ายังติดตั้ง WSL2 ไม่สมบูรณ์ ให้คลิกที่เว็บ https://aka.ms/wsl2kernel
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/5.PNG"/>
+
+  - ให้เปิด PowerShell แบบ Administrator เพื่อ Enable the Windows Subsystem for Linux
+  ```
+  dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+  ```
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/6.PNG"/>
+
+  - จากนั้นก็ให้เปิด Enable Virtual Machine Platform 
+  ```
+  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+  ```
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/7.PNG"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 * Windows users should install [Docker Desktop](https://hub.docker.com/editions/community/docker-ce-desktop-windows) and 1) make sure Linux containers are enabled (Switch to Linux Containers...), 2) give Docker enough CPUs (default 2) and RAM (>4Gb, 16Gb better but leave some for Windows) by going to Settings -- Advanced, and 3) select where on your hard drive you want virtual hard drives to reside (Settings -- Advanced -- Images & Volumes).
 
