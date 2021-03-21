@@ -37,16 +37,15 @@ A user-friendly, commercial grade software for drone image processing. Generate 
 
 ## Getting Started
 
-Windows and macOS users can purchase an automated [installer](https://www.opendronemap.org/webodm/download#installer), which makes the installation process easier.
+* ขั้นตอนการติดตั้งโปรแกรม
+  - ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
 
-You can also run WebODM from a Live USB/DVD. See [LiveODM](https://www.opendronemap.org/liveodm/).
+  - ดับเบิลคลิกที่ไฟล์ Git-2.31.0-64-bit.exe
+  <img width="800" src="https://github.com/chingchai/workshop/blob/nump/postgis/sql_img1.png"/>
 
-Windows users looking for a UI-only native installation can also download the "Desktop App" available from [webodm.net](https://webodm.net).
+  - ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
 
-To install WebODM manually, these steps should get you up and running:
 
-* Install the following applications (if they are not installed already):
-  - [Git](https://git-scm.com/downloads)
   - [Docker](https://www.docker.com/)
   - [Docker-compose](https://docs.docker.com/compose/install/)
   - Python
