@@ -71,12 +71,14 @@ A user-friendly, commercial grade software for drone image processing. Generate 
   ```
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/7.PNG"/>
 
-- ดับเบิลคลิกที่ไฟล์ wsl_update_x64.msi เพื่ออัพเดท WSL2 Linux kernel update package for x64 machines หรือ [ดาวน์โหลดได้ที่](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+  - ดับเบิลคลิกที่ไฟล์ wsl_update_x64.msi เพื่ออัพเดท WSL2 Linux kernel update package for x64 machines หรือ [ดาวน์โหลดได้ที่](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/8.PNG"/>
 
-- การติดตั้งเพื่ออัพเดท WSL2 Linux kernel update package for x64 machines สำเร็จ
+  - การติดตั้งเพื่ออัพเดท WSL2 Linux kernel update package for x64 machines สำเร็จ
   <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/9.PNG"/>
 
+  - จากนั้นก็จะสามารถเปิดใช้งาน docker ได้
+  <img width="500" src="https://github.com/mapedia-th/docker-conf/blob/main/img/10.PNG"/>
 
 
 
