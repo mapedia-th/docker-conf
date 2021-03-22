@@ -123,6 +123,10 @@ To update WebODM to the latest version use:
 
 We recommend that you read the [Docker Documentation](https://docs.docker.com/) to familiarize with the application lifecycle, setup and teardown, or for more advanced uses. Look at the contents of the webodm.sh script to understand what commands are used to launch WebODM.
 
+### 4.5 จากนั้นใน docker เราจะเห็นว่ามีไฟล์ Images และ Containers/Apps ที่เป็นของ webodm แสดงขึ้นมาดังภาพ
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/22.PNG"/>
+
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/23.PNG"/>
 ## License
 
 WebODM is licensed under the terms of the [GNU Affero General Public License v3.0](https://github.com/OpenDroneMap/WebODM/blob/master/LICENSE.md).
