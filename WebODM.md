@@ -67,13 +67,30 @@
 
 
 ## 4. ขั้นตอนการติดตั้งโปรแกรม WebODM
-
-* From the Docker Quickstart Terminal or Git Bash (Windows), or from the command line (Mac / Linux), type:
+### 4.1 ให้เปิด Git Bash หรือ Powershell แล้วพิมพ์ชุดคำสั่งด้านล่างนี้:
 ```bash
 git clone https://github.com/OpenDroneMap/WebODM --config core.autocrlf=input --depth 1
+
+```
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/18.PNG"/>
+
+### 4.2 จากนั้นเราจะได้โฟลเดอร์ WebODM ดังภาพด้านล่าง
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/16.PNG"/>
+
+### 4.3 ทำการเข้าไปที่ไดเร็กทอรี่ WebODM ด้วยคำสั่ง:
+```bash
 cd WebODM
+```
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/19.PNG"/>
+
+### 4.4 ทำการ Start WebODM ด้วยคำสั่ง:
+```bash
 ./webodm.sh start
 ```
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/20.PNG"/>
+
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/21.PNG"/>
+
 * If you face any issues at the last step on Linux, make sure your user is part of the docker group:
 ```bash
 sudo usermod -aG docker $USER
