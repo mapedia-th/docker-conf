@@ -91,14 +91,15 @@ cd WebODM
 
 <img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/21.PNG"/>
 
-* If you face any issues at the last step on Linux, make sure your user is part of the docker group:
-```bash
-sudo usermod -aG docker $USER
-exit
-(restart shell by logging out and then back-in)
-./webodm.sh start
-```
-* Open a Web Browser to `http://localhost:8000` (unless you are on Windows using Docker Toolbox, see below)
+### 4.5 จากนั้นใน docker เราจะเห็นว่ามีไฟล์ Images และ Containers/Apps ที่เป็นของ webodm แสดงขึ้นมาดังภาพ
+<img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/22.PNG"/>
+
+<img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/23.PNG"/>
+
+
+### 4.6 เปิดเว็บเบราว์เซอร์แล้วพิมพ์ไปที่ `http://localhost:8000`
+<img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/24.PNG"/>
+
 
 Docker Toolbox users need to find the IP of their docker machine by running this command from the Docker Quickstart Terminal:
 
@@ -122,11 +123,6 @@ To update WebODM to the latest version use:
 ```
 
 We recommend that you read the [Docker Documentation](https://docs.docker.com/) to familiarize with the application lifecycle, setup and teardown, or for more advanced uses. Look at the contents of the webodm.sh script to understand what commands are used to launch WebODM.
-
-### 4.5 จากนั้นใน docker เราจะเห็นว่ามีไฟล์ Images และ Containers/Apps ที่เป็นของ webodm แสดงขึ้นมาดังภาพ
-<img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/22.PNG"/>
-
-<img width="800" src="https://github.com/mapedia-th/docker-conf/blob/main/img/23.PNG"/>
 
 ## License
 
