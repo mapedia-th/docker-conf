@@ -3,13 +3,27 @@
 
 ## 1. การติดตั้งโปรแกรม Git
 ### 1.1 ดาวน์โหลดโปรแกรมได้ที่ [Git](https://git-scm.com/downloads)
-<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/1.PNG"/>
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/39.PNG"/>
 
 ### 1.2 ดับเบิลคลิกที่ไฟล์ Git-2.31.0-64-bit.exe เพื่อเริ่มติดตั้งโปรแกรม
 
-### 1.3 ติกถูกเลือกทั้งหมด แล้วคลิกที่ OK
-<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/1.PNG"/>
+### 1.3 คลิก Next
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/25.PNG"/>
 
+### 1.4 Select component แล้วคลิก Next
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/26.PNG"/>
+
+### 1.5 คลิก Next ไปเรื่อยๆ จนถึงหน้า Install
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/27.PNG"/>
+
+### 1.6 คลิก Install
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/36.PNG"/>
+
+### 1.7 กำลังติดตั้งโปรแกรม
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/37.PNG"/>
+
+### 1.8 ติดตั้งสำเร็จ
+<img width="700" src="https://github.com/mapedia-th/docker-conf/blob/main/img/38.PNG"/>
 
 ## 2. การติดตั้งโปรแกรม Docker
 ### 2.1 ท่านสามารถดาวน์โหลดโปรแกรม docker ได้ที่ [Docker](https://www.docker.com/)
