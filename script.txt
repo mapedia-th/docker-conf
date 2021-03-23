@@ -1,0 +1,32 @@
+WMS ของกรมที่ดินปัจจุบัน
+WMS Server 1 : 
+http://110.164.49.68:8081/geoserver/WMSDOL/wms?
+
+WMS Server 2 : 
+http://110.164.49.70:8081/geoserver/WMSDOL/wms?
+
+WMS Server 3 : 
+http://110.164.49.72:8081/geoserver/WMSDOL/wms?
+
+WMS Server 4 : 
+http://110.164.49.76:8081/geoserver/WMSDOL/wms?
+
+
+#############################################################################################
+
+<table>
+	<tr>
+    	<th>[% descriptio %]</th>
+	</tr> 
+	<tr>
+	<th><img src="file:///[% photo %]" width="350" height="250"></th>
+	</tr>
+</table>
+
+
+#############################################################################################
+
+<script>
+  var url = expression.evaluate("'http://www.thaisarabun.com/gistool/landinfo.php?land_no=' || \"land_no\"||'&rawang='||\"mapsheet\"||'&province_id='|| \"prov\"");
+  document.write('<iframe width="560" height="315" src="' +  url +'"   frameborder="0"></iframe>' );
+</script>
