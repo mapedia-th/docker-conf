@@ -10,6 +10,10 @@ http://change2.gistda.or.th/geoserver/wms?version=1.3.0
 
 https://sos-s03.gistda.or.th/geoserver/SDS/wms?version=1.3.0
 ```
+#### 1. Web Map Service (WMS) -> longdo maps https://map.longdo.com/docs/javascript/qgis
+```
+http://ms.longdo.com/mapproxy/service
+```
 
 #### 2. Web Map Tile Service (WMTS)
 ```
