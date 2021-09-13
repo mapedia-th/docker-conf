@@ -141,3 +141,7 @@ We recommend that you read the [Docker Documentation](https://docs.docker.com/) 
 ## License
 
 WebODM is licensed under the terms of the [GNU Affero General Public License v3.0](https://github.com/OpenDroneMap/WebODM/blob/master/LICENSE.md).
+
+## Configure global options with .wslconfig
+- https://docs.microsoft.com/en-us/windows/wsl/wsl-config#configure-global-options-with-wslconfig
+- https://www.bleepingcomputer.com/news/microsoft/windows-10-wsl2-now-allows-you-to-configure-global-options/
